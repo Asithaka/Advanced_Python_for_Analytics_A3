@@ -7,17 +7,17 @@ class Payroll:
         self.__charge = Charge
         self.__id = EmployeeID
 
-    def set_description(self, Description):
-        self.__description = Description
+    # def set_description(self, Description):
+    #     self.__description = Description
 
-    def set_date(self, Date):
-        self.__date = Date
+    # def set_date(self, Date):
+    #     self.__date = Date
     
-    def set_charge(self, Charge):
-        self.__charge = Charge
+    # def set_charge(self, Charge):
+    #     self.__charge = Charge
     
-    def set_id(self, id):
-        self.__id = id
+    # def set_id(self, EmployeeID):
+    #     self.__id = EmployeeID
 
     def get_description(self):
         return self.__description
