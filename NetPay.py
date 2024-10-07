@@ -33,7 +33,11 @@ def main():
 
         net_salary = my_emp.get_salary() - total_deduction
 
-    print(f"Net Salary: {net_salary:,.2f}")
+    print(f"Name: {my_emp.get_name()}")
+    print(f"ID Number: {my_emp.get_id()}")
+    print(f"Department: {my_emp.get_department()}")
+    print(f"Gross Pay: {my_emp.get_salary()}")
+    print(f"Net Pay: ${net_salary:,.2f}")
 
 main()
 
